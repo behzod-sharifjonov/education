@@ -1,0 +1,117 @@
+/* navbar */
+
+nav {
+  justify-content: space-between;
+}
+
+nav img {
+  height: 50px;
+  width: 130px;
+}
+
+nav .nav-ul {
+  gap: 20px;
+}
+
+nav .nav-ul li {
+  color: silver;
+  font-size: 19px;
+}
+
+nav ul li:first-child {
+  color: #6720c2 !important;
+}
+
+.nav-menu {
+  font-size: 28px;
+  background-color: transparent;
+  border: none;
+  display: none;
+}
+
+.close-btn {
+  font-size: 50px;
+  position: absolute;
+}
+
+/* header */
+
+.header-container {
+  padding-top: 70px;
+}
+
+.header-title {
+  text-align: center;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.header-title h1 {
+  font-size: clamp(1.2rem, calc(5.5vw + 0.5rem), 4rem);
+}
+.header-title span {
+  font-size: clamp(0.3rem, 2vw, 1rem);
+  color: #6a6b6c;
+  font-weight: 500;
+}
+
+.header-btns {
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.header-btn-2 {
+  background-color: transparent;
+  border: none;
+  font-size: 1.1rem;
+  gap: 6px;
+}
+
+.play-icon {
+  font-size: 2.1rem;
+  color: #e5d6fd;
+}
+
+.header-img-card img {
+  width: 290px;
+  height: 460px;
+}
+
+@media screen and (max-width: 991px) {
+  nav .nav-ul {
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    display: none;
+  }
+
+  nav .active {
+    display: flex;
+  }
+
+  nav .nav-ul li {
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 1px solid #6720c2;
+    padding: 20px 10px;
+    width: 60%;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+
+  nav img,
+  .nav-btn {
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+  }
+}
