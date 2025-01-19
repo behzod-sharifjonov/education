@@ -72,9 +72,20 @@ nav ul li:first-child {
   color: #e5d6fd;
 }
 
+.header-images {
+  justify-content: space-between;
+  gap: 40px;
+}
+
 .header-img-card img {
-  width: 290px;
-  height: 460px;
+  width: 100%;
+  max-width: 290px;
+  height: auto;
+}
+
+.header-img-card:nth-child(2),
+.header-img-card:nth-child(3) {
+  padding-top: 100px;
 }
 
 @media screen and (max-width: 991px) {
@@ -114,4 +125,13 @@ nav ul li:first-child {
     height: 45px;
     font-size: 16px;
   }
+  .header-images {
+    gap: 10px;
+    padding-top: 30px;
+  }
+
+  .header-img-card:nth-child(2),
+.header-img-card:nth-child(3) {
+  padding-top: 50px;
+}
 }
