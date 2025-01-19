@@ -11,7 +11,13 @@
   display: flex;
 }
 
-.none{
+h1,
+h2,
+h3 {
+  color: #06052e;
+}
+
+.none {
   display: none;
 }
 
@@ -27,18 +33,18 @@
   padding: 20px 10%;
 }
 
-body{
-  background-color: #F9FAFC;
+body {
+  background-color: #f9fafc;
 }
 
 .btn {
-    height: 45px;
-    width: 150px;
-    background-color: #6720c2;
-    border-radius: 100px;
-    font-size: 18px;
-    color: white;
-    border: none;
+  height: 45px;
+  width: 150px;
+  background-color: #6720c2;
+  border-radius: 100px;
+  font-size: 18px;
+  color: white;
+  border: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -46,10 +52,9 @@ body{
     padding: 20px 3%;
   }
 
-  .btn{
+  .btn {
     height: 35px;
     width: 130px;
     font-size: 15px;
   }
-
 }

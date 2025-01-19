@@ -50,19 +50,19 @@ function Header() {
         </div>
         <div className="header-partner flex align">
           <div className="header-partner-card">
-            <img width={'200px'} src={header_bottom_1} alt="" />
+            <img width={'180px'} src={header_bottom_1} alt="" />
           </div>
           <div className="header-partner-card">
-            <img width={'200px'} src={header_bottom_2} alt="" />
+            <img width={'180px'} src={header_bottom_2} alt="" />
           </div>
           <div className="header-partner-card">
-            <img width={'200px'} src={header_bottom_3} alt="" />
+            <img width={'180px'} src={header_bottom_3} alt="" />
           </div>
           <div className="header-partner-card">
-            <img width={'200px'} src={header_bottom_4} alt="" />
+            <img width={'180px'} src={header_bottom_4} alt="" />
           </div>
           <div className="header-partner-card">
-            <img width={'200px'} src={header_bottom_5} alt="" />
+            <img width={'180px'} src={header_bottom_5} alt="" />
           </div>
         </div>
       </div>

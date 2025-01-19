@@ -49,7 +49,8 @@ nav ul li:first-child {
 .header-title h1 {
   font-size: clamp(1.2rem, calc(5.5vw + 0.5rem), 4rem);
 }
-.header-title span {
+.header-title span,
+.service span {
   font-size: clamp(0.3rem, 2vw, 1rem);
   color: #6a6b6c;
   font-weight: 500;
@@ -97,6 +98,64 @@ nav ul li:first-child {
   aspect-ratio: 1 / 1;
   object-fit: contain;
   height: auto;
+}
+
+/* service */
+
+.service {
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.service h1 {
+  font-size: clamp(1rem, calc(5.5vw + 0.5rem), 2.5rem);
+}
+
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.service-container .service-card {
+  background-color: white;
+  width: 280px;
+  height: 360px;
+  border-radius: 20px;
+  text-align: left;
+  padding: 12px 14px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.01);
+}
+
+.service-container .service-card img {
+  max-width: 110px;
+  width: 100%;
+  height: auto;
+}
+
+.service-card-text {
+  padding: 5px 12px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.service-card-text h3{
+    font-size: clamp(0.6rem, 2.5vw, 1.2rem);
+}
+
+.service-card-text span {
+  font-size: clamp(0.8rem, 1vw, 1.5rem);
+  font-weight: 300;
+}
+
+.service-btn button {
+  background-color: transparent;
+  border: none;
+  color: #6326b1;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 991px) {
@@ -155,5 +214,15 @@ nav ul li:first-child {
   .header-img-card:nth-child(2),
   .header-img-card:nth-child(3) {
     padding-top: 50px;
+  }
+
+  .service-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-container .service-card{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
   }
 }
