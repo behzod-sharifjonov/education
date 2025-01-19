@@ -126,12 +126,14 @@ nav ul li:first-child {
   height: auto;
   border-radius: 20px;
   text-align: left;
-  padding: 20px 14px;
+  /* padding: 20px 14px; */
+  padding-bottom: 20px;
+  padding-left: 10px;
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.01);
 }
 
 .service-container .service-card img {
-  max-width: 110px;
+  max-width: 100px;
   width: 100%;
   height: auto;
 }
@@ -143,7 +145,7 @@ nav ul li:first-child {
 }
 
 .service-card-text h3{
-    font-size: clamp(0.8rem, 1.3vw, 2rem);
+    font-size: clamp(0.8rem, calc(1vw + 0.1rem), 1.4rem);
 }
 
 .service-card-text span {
