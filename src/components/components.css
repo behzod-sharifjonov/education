@@ -88,6 +88,17 @@ nav ul li:first-child {
   padding-top: 100px;
 }
 
+.header-partner {
+  justify-content: space-between;
+}
+
+.header-partner .header-partner-card img {
+  max-width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  height: auto;
+}
+
 @media screen and (max-width: 991px) {
   nav .nav-ul {
     flex-direction: column;
