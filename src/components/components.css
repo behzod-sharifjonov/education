@@ -144,8 +144,8 @@ nav ul li:first-child {
   gap: 30px;
 }
 
-.service-card-text h3{
-    font-size: clamp(0.8rem, calc(1vw + 0.1rem), 1.4rem);
+.service-card-text h3 {
+  font-size: clamp(0.8rem, calc(1vw + 0.1rem), 1.4rem);
 }
 
 .service-card-text span {
@@ -157,8 +157,65 @@ nav ul li:first-child {
   background-color: transparent;
   border: none;
   color: #6326b1;
-  font-size:  clamp(0.6rem, 1vw, 1.5rem);
+  font-size: clamp(0.6rem, 1vw, 1.5rem);
   font-weight: 600;
+}
+
+.service-additional {
+  justify-content: space-between !important;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.service-additional img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.service-additional-text {
+  text-align: left;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.service-additional-text h1 {
+  font-size: clamp(0.7rem, calc(2vw + 0.1rem), 2.7rem);
+}
+
+.service-additional-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  max-width: 340px;
+}
+
+.service-info-card {
+  padding: 10px 0;
+}
+
+.service-info-card:nth-child(1),
+.service-info-card:nth-child(2) {
+  border-bottom: 1px dashed #06052e;
+}
+
+.service-info-card:nth-child(1),
+.service-info-card:nth-child(3) {
+  border-right: 1px dashed #06052e;
+}
+
+.service-info-card:nth-child(2),
+.service-info-card:nth-child(4) {
+  padding-left: 10px;
+}
+
+.service-info-card h3 {
+  font-size: 20px;
+}
+
+.service-additional-text span {
+  font-size: clamp(0.3rem, 1vw, 0.9rem);
 }
 
 @media screen and (max-width: 991px) {
@@ -223,17 +280,27 @@ nav ul li:first-child {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .service-container .service-card{
+  .service-container .service-card {
     width: 100%;
     height: auto;
     padding: 16px 8px;
   }
 
-  .service-card-text{
+  .service-card-text {
     padding: 5px 8px;
   }
 
-  .service-container .service-card img{
+  .service-container .service-card img {
     max-width: 70px;
+  }
+
+  .service-additional img {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .service-additional img {
+    max-width: 200px;
   }
 }
