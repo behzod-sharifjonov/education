@@ -143,7 +143,7 @@ nav ul li:first-child {
 }
 
 .service-card-text h3{
-    font-size: clamp(0.6rem, 1.3vw, 2rem);
+    font-size: clamp(0.8rem, 1.3vw, 2rem);
 }
 
 .service-card-text span {
@@ -224,6 +224,14 @@ nav ul li:first-child {
   .service-container .service-card{
     width: 100%;
     height: auto;
-    padding-bottom: 30px;
+    padding: 16px 8px;
+  }
+
+  .service-card-text{
+    padding: 5px 8px;
+  }
+
+  .service-container .service-card img{
+    max-width: 70px;
   }
 }
