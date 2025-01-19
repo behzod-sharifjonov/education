@@ -74,7 +74,7 @@ nav ul li:first-child {
 
 .header-images {
   justify-content: space-between;
-  gap: 40px;
+  gap: 50px;
 }
 
 .header-img-card img {
@@ -119,8 +119,19 @@ nav ul li:first-child {
     display: flex;
   }
 
-  nav img,
-  .nav-btn {
+  .header-btn-2 {
+    background-color: transparent;
+    border: none;
+    font-size: 0.8rem;
+    gap: 6px;
+  }
+
+  .play-icon {
+    font-size: 1.8rem;
+    color: #e5d6fd;
+  }
+
+  nav img {
     width: 120px;
     height: 45px;
     font-size: 16px;
@@ -131,7 +142,7 @@ nav ul li:first-child {
   }
 
   .header-img-card:nth-child(2),
-.header-img-card:nth-child(3) {
-  padding-top: 50px;
-}
+  .header-img-card:nth-child(3) {
+    padding-top: 50px;
+  }
 }
