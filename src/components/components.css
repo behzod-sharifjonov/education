@@ -218,6 +218,25 @@ nav ul li:first-child {
   font-size: clamp(0.3rem, 1vw, 0.9rem);
 }
 
+/* corusel */
+
+.corusel-container {
+  background-color: #181b3e;
+  padding: 70px 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.corusel-card {
+  height: 130px;
+  padding: 10px;
+}
+
+.slider-card {
+  flex-direction: column;
+  height: 350px !important;
+}
+
 @media screen and (max-width: 991px) {
   nav .nav-ul {
     flex-direction: column;
@@ -322,5 +341,20 @@ nav ul li:first-child {
   }
   .service-additional-text {
     gap: 10px;
+  }
+
+  .corusel-card {
+    height: 100px;
+    padding: 10px;
+  }
+
+  .slider-card img{
+    width: 250px;
+  }
+
+  .slider-card {
+    flex-direction: column;
+    height: 280px !important;
+    width: 250px!important;
   }
 }
