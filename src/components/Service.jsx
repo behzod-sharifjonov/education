@@ -92,7 +92,7 @@ function Service() {
               <span>Happy Students</span>
             </div>
           </div>
-          <button className="btn">Get Started</button>
+          <button className="btn service-btn">Get Started</button>
         </div>
       </div>
     </div>

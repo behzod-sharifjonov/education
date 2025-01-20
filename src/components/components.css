@@ -177,11 +177,11 @@ nav ul li:first-child {
   text-align: left;
   flex-direction: column;
   gap: 20px;
-  width: 100%;
+  width: 60%;
 }
 
 .service-additional-text h1 {
-  font-size: clamp(0.7rem, calc(2vw + 0.1rem), 2.7rem);
+  font-size: clamp(0.9rem, calc(2vw + 0.3rem), 2.9rem);
 }
 
 .service-additional-info {
@@ -294,13 +294,33 @@ nav ul li:first-child {
     max-width: 70px;
   }
 
+  .service-additional-info {
+    max-width: 270px;
+  }
+
   .service-additional img {
     max-width: 300px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .service-additional img {
-    max-width: 200px;
+    max-width: 170px;
+  }
+  .service-additional-info {
+    max-width: 170px;
+  }
+
+  .service-additional-info h3 {
+    font-size: 0.8rem;
+  }
+
+  .service-btn {
+    width: 80px !important;
+    font-size: 10px !important;
+    height: 30px !important;
+  }
+  .service-additional-text {
+    gap: 10px;
   }
 }
