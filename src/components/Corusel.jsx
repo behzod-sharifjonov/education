@@ -7,6 +7,9 @@ import corusel_image_2 from "../assets/corusel_image_2.svg";
 import corusel_image_3 from "../assets/corusel_image_3.svg";
 import corusel_image_4 from "../assets/corusel_image_4.svg";
 
+import user_icon from "../assets/user_icon.svg";
+import star_icon from "../assets/star_icon.svg";
+
 import "./components.css";
 
 const Corusel = () => {
@@ -18,7 +21,7 @@ const Corusel = () => {
     slidesToScroll: 1,
     autoplay: true,
     arrows: false,
-    autoplaySpeed: 20000,
+    autoplaySpeed: 2000,
 
     responsive: [
       {
@@ -80,9 +83,23 @@ const Corusel = () => {
             className="flex slider-card"
           >
             <img width={"100%"} height={"163px"} src={corusel_image_1} alt="" />
-            <div className="corusel-card">
-              <h3>Card 1</h3>
-              <p>This is a sample card.</p>
+            <div className="corusel-card flex">
+              <h3>The level of creativity and student activity</h3>
+              <div className="corusel-card-bottom flex">
+                <div className="flex align gap-10">
+                  <div className="corusel-card-user flex align gap-5">
+                    <img className="corusel_icon" src={user_icon} alt="" />
+                    <span>200 Students</span>
+                  </div>
+                  <div className="corusel-card-rating flex align gap-5">
+                    <img className="corusel_icon" src={star_icon} alt="" />
+                    <span>4.9</span>
+                  </div>
+                </div>
+                <div className="corusel-card-price">
+                  <span>170$</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -95,13 +112,27 @@ const Corusel = () => {
               margin: "0 10px",
               width: "280px",
               height: "auto",
-              borderRadius: 8,
+              borderRadius: 12,
             }}
           >
             <img width={"100%"} height={"163px"} src={corusel_image_2} alt="" />
-            <div className="corusel-card">
-              <h3>Card 2</h3>
-              <p>This is a sample card.</p>
+            <div className="corusel-card flex">
+              <h3>Knowledge of earth and world geography</h3>
+              <div className="corusel-card-bottom flex">
+                <div className="flex align gap-10">
+                  <div className="corusel-card-user flex align gap-5">
+                    <img className="corusel_icon" src={user_icon} alt="" />
+                    <span>200 Students</span>
+                  </div>
+                  <div className="corusel-card-rating flex align gap-5">
+                    <img className="corusel_icon" src={star_icon} alt="" />
+                    <span>4.9</span>
+                  </div>
+                </div>
+                <div className="corusel-card-price">
+                  <span>170$</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -114,13 +145,27 @@ const Corusel = () => {
               margin: "0 10px",
               width: "280px",
               height: "auto",
-              borderRadius: 8,
+              borderRadius: 12,
             }}
           >
             <img width={"100%"} height={"163px"} src={corusel_image_3} alt="" />
-            <div className="corusel-card">
-              <h3>Card 3</h3>
-              <p>This is a sample card.</p>
+            <div className="corusel-card flex">
+              <h3>Logic and numeric general calculations</h3>
+              <div className="corusel-card-bottom flex">
+                <div className="flex align gap-10">
+                  <div className="corusel-card-user flex align gap-5">
+                    <img className="corusel_icon" src={user_icon} alt="" />
+                    <span>200 Students</span>
+                  </div>
+                  <div className="corusel-card-rating flex align gap-5">
+                    <img className="corusel_icon" src={star_icon} alt="" />
+                    <span>4.9</span>
+                  </div>
+                </div>
+                <div className="corusel-card-price">
+                  <span>170$</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -133,12 +178,28 @@ const Corusel = () => {
               margin: "0 10px",
               width: "280px",
               height: "auto",
-              borderRadius: 8,
+              borderRadius: 12,
             }}
           >
             <img width={"100%"} height={"163px"} src={corusel_image_4} alt="" />
-            <h3>Card 4</h3>
-            <p>This is the fourth card.</p>
+            <div className="corusel-card flex">
+              <h3>Drawing and coloring picture Book</h3>
+              <div className="corusel-card-bottom flex">
+                <div className="flex align gap-10">
+                  <div className="corusel-card-user flex align gap-5">
+                    <img className="corusel_icon" src={user_icon} alt="" />
+                    <span>200 Students</span>
+                  </div>
+                  <div className="corusel-card-rating flex align gap-5">
+                    <img className="corusel_icon" src={star_icon} alt="" />
+                    <span>4.9</span>
+                  </div>
+                </div>
+                <div className="corusel-card-price">
+                  <span>170$</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div>
@@ -150,12 +211,28 @@ const Corusel = () => {
               margin: "0 10px",
               width: "280px",
               height: "auto",
-              borderRadius: 8,
+              borderRadius: 12,
             }}
           >
             <img width={"100%"} height={"163px"} src={corusel_image_2} alt="" />
-            <h3>Card 5</h3>
-            <p>This is the fifth card.</p>
+            <div className="corusel-card flex">
+              <h3>Knowledge of earth and world geography</h3>
+              <div className="corusel-card-bottom flex">
+                <div className="flex align gap-10">
+                  <div className="corusel-card-user flex align gap-5">
+                    <img className="corusel_icon" src={user_icon} alt="" />
+                    <span>200 Students</span>
+                  </div>
+                  <div className="corusel-card-rating flex align gap-5">
+                    <img className="corusel_icon" src={star_icon} alt="" />
+                    <span>4.9</span>
+                  </div>
+                </div>
+                <div className="corusel-card-price">
+                  <span>170$</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div>
@@ -167,12 +244,28 @@ const Corusel = () => {
               margin: "0 10px",
               width: "280px",
               height: "auto",
-              borderRadius: 8,
+              borderRadius: 12,
             }}
           >
             <img width={"100%"} height={"163px"} src={corusel_image_1} alt="" />
-            <h3>Card 5</h3>
-            <p>This is the fifth card.</p>
+            <div className="corusel-card flex">
+              <h3>The level of creativity and student activity</h3>
+              <div className="corusel-card-bottom flex">
+                <div className="flex align gap-10">
+                  <div className="corusel-card-user flex align gap-5">
+                    <img className="corusel_icon" src={user_icon} alt="" />
+                    <span>200 Students</span>
+                  </div>
+                  <div className="corusel-card-rating flex align gap-5">
+                    <img className="corusel_icon" src={star_icon} alt="" />
+                    <span>4.9</span>
+                  </div>
+                </div>
+                <div className="corusel-card-price">
+                  <span>170$</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div>
@@ -184,12 +277,28 @@ const Corusel = () => {
               margin: "0 10px",
               width: "280px",
               height: "auto",
-              borderRadius: 8,
+              borderRadius: 12,
             }}
           >
             <img width={"100%"} height={"163px"} src={corusel_image_4} alt="" />
-            <h3>Card 5</h3>
-            <p>This is the fifth card.</p>
+            <div className="corusel-card flex">
+              <h3>Drawing and coloring picture Book</h3>
+              <div className="corusel-card-bottom flex">
+                <div className="flex align gap-10">
+                  <div className="corusel-card-user flex align gap-5">
+                    <img className="corusel_icon" src={user_icon} alt="" />
+                    <span>200 Students</span>
+                  </div>
+                  <div className="corusel-card-rating flex align gap-5">
+                    <img className="corusel_icon" src={star_icon} alt="" />
+                    <span>4.9</span>
+                  </div>
+                </div>
+                <div className="corusel-card-price">
+                  <span>170$</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div>
@@ -201,12 +310,28 @@ const Corusel = () => {
               margin: "0 10px",
               width: "280px",
               height: "auto",
-              borderRadius: 8,
+              borderRadius: 12,
             }}
           >
             <img width={"100%"} height={"163px"} src={corusel_image_3} alt="" />
-            <h3>Card 5</h3>
-            <p>This is the fifth card.</p>
+            <div className="corusel-card flex">
+              <h3>Logic and numeric general calculations</h3>
+              <div className="corusel-card-bottom flex">
+                <div className="flex align gap-10">
+                  <div className="corusel-card-user flex align gap-5">
+                    <img className="corusel_icon" src={user_icon} alt="" />
+                    <span>200 Students</span>
+                  </div>
+                  <div className="corusel-card-rating flex align gap-5">
+                    <img className="corusel_icon" src={star_icon} alt="" />
+                    <span>4.9</span>
+                  </div>
+                </div>
+                <div className="corusel-card-price">
+                  <span>170$</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </Slider>

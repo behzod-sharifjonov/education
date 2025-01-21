@@ -229,12 +229,39 @@ nav ul li:first-child {
 
 .corusel-card {
   height: 130px;
-  padding: 10px;
+  padding: 18px;
+  text-align: left;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .slider-card {
   flex-direction: column;
-  height: 350px !important;
+  height: 315px !important;
+}
+
+.corusel_icon{
+    height: 20px;
+    width: 20px;
+}
+
+.corusel-card-user span{
+    font-size: 14px;
+}
+
+.gap-5{
+    gap: 5px;
+}
+.gap-10{
+    gap: 10px;
+}
+
+.corusel-card-bottom{
+   justify-content: space-between;
+}
+
+.corusel-card-price{
+    font-weight: 600;
 }
 
 @media screen and (max-width: 991px) {
@@ -320,8 +347,8 @@ nav ul li:first-child {
   .service-additional img {
     max-width: 300px;
   }
-  .corusel-flex{
-    width: 95%!important;
+  .corusel-flex {
+    width: 95% !important;
   }
 }
 
@@ -351,16 +378,16 @@ nav ul li:first-child {
     padding: 10px;
   }
 
-  .slider-card img{
-    width: 250px;
+  .slider-card img {
+    height: 148px !important;
   }
 
   .slider-card {
     flex-direction: column;
     height: 280px !important;
-    width: 250px!important;
+    width: 250px !important;
   }
-  .corusel-flex{
-    width: 90%!important;
+  .corusel-flex {
+    width: 90% !important;
   }
 }
