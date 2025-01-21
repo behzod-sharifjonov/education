@@ -211,11 +211,11 @@ nav ul li:first-child {
 }
 
 .service-info-card h3 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .service-additional-text span {
-  font-size: clamp(0.3rem, 1vw, 0.9rem);
+  font-size: clamp(0.5rem, 1vw, 0.9rem);
 }
 
 /* corusel */
@@ -240,28 +240,28 @@ nav ul li:first-child {
   height: 315px !important;
 }
 
-.corusel_icon{
-    height: 20px;
-    width: 20px;
+.corusel_icon {
+  height: 20px;
+  width: 20px;
 }
 
-.corusel-card-user span{
-    font-size: 14px;
+.corusel-card-user span {
+  font-size: 14px;
 }
 
-.gap-5{
-    gap: 5px;
+.gap-5 {
+  gap: 5px;
 }
-.gap-10{
-    gap: 10px;
-}
-
-.corusel-card-bottom{
-   justify-content: space-between;
+.gap-10 {
+  gap: 10px;
 }
 
-.corusel-card-price{
-    font-weight: 600;
+.corusel-card-bottom {
+  justify-content: space-between;
+}
+
+.corusel-card-price {
+  font-weight: 600;
 }
 
 @media screen and (max-width: 991px) {
@@ -379,7 +379,7 @@ nav ul li:first-child {
   }
 
   .slider-card img {
-    height: 148px !important;
+    height: 146px !important;
   }
 
   .slider-card {
