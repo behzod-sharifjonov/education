@@ -390,4 +390,13 @@ nav ul li:first-child {
   .corusel-flex {
     width: 90% !important;
   }
+
+  .corusel_icon {
+    height: 10px;
+    width: 10px;
+  }
+
+  .corusel-card-bottom{
+    height: 100px;
+  }
 }

@@ -21,7 +21,7 @@ const Corusel = () => {
     slidesToScroll: 1,
     autoplay: true,
     arrows: false,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 200000,
 
     responsive: [
       {
@@ -85,7 +85,7 @@ const Corusel = () => {
             <img width={"100%"} height={"163px"} src={corusel_image_1} alt="" />
             <div className="corusel-card flex">
               <h3>The level of creativity and student activity</h3>
-              <div className="corusel-card-bottom flex">
+              <div className="corusel-card-bottom flex align">
                 <div className="flex align gap-10">
                   <div className="corusel-card-user flex align gap-5">
                     <img className="corusel_icon" src={user_icon} alt="" />
@@ -118,7 +118,7 @@ const Corusel = () => {
             <img width={"100%"} height={"163px"} src={corusel_image_2} alt="" />
             <div className="corusel-card flex">
               <h3>Knowledge of earth and world geography</h3>
-              <div className="corusel-card-bottom flex">
+              <div className="corusel-card-bottom flex align">
                 <div className="flex align gap-10">
                   <div className="corusel-card-user flex align gap-5">
                     <img className="corusel_icon" src={user_icon} alt="" />
@@ -151,7 +151,7 @@ const Corusel = () => {
             <img width={"100%"} height={"163px"} src={corusel_image_3} alt="" />
             <div className="corusel-card flex">
               <h3>Logic and numeric general calculations</h3>
-              <div className="corusel-card-bottom flex">
+              <div className="corusel-card-bottom flex align">
                 <div className="flex align gap-10">
                   <div className="corusel-card-user flex align gap-5">
                     <img className="corusel_icon" src={user_icon} alt="" />
@@ -184,7 +184,7 @@ const Corusel = () => {
             <img width={"100%"} height={"163px"} src={corusel_image_4} alt="" />
             <div className="corusel-card flex">
               <h3>Drawing and coloring picture Book</h3>
-              <div className="corusel-card-bottom flex">
+              <div className="corusel-card-bottom flex align">
                 <div className="flex align gap-10">
                   <div className="corusel-card-user flex align gap-5">
                     <img className="corusel_icon" src={user_icon} alt="" />
@@ -217,7 +217,7 @@ const Corusel = () => {
             <img width={"100%"} height={"163px"} src={corusel_image_2} alt="" />
             <div className="corusel-card flex">
               <h3>Knowledge of earth and world geography</h3>
-              <div className="corusel-card-bottom flex">
+              <div className="corusel-card-bottom flex align">
                 <div className="flex align gap-10">
                   <div className="corusel-card-user flex align gap-5">
                     <img className="corusel_icon" src={user_icon} alt="" />
@@ -250,7 +250,7 @@ const Corusel = () => {
             <img width={"100%"} height={"163px"} src={corusel_image_1} alt="" />
             <div className="corusel-card flex">
               <h3>The level of creativity and student activity</h3>
-              <div className="corusel-card-bottom flex">
+              <div className="corusel-card-bottom flex align">
                 <div className="flex align gap-10">
                   <div className="corusel-card-user flex align gap-5">
                     <img className="corusel_icon" src={user_icon} alt="" />
@@ -283,7 +283,7 @@ const Corusel = () => {
             <img width={"100%"} height={"163px"} src={corusel_image_4} alt="" />
             <div className="corusel-card flex">
               <h3>Drawing and coloring picture Book</h3>
-              <div className="corusel-card-bottom flex">
+              <div className="corusel-card-bottom flex align">
                 <div className="flex align gap-10">
                   <div className="corusel-card-user flex align gap-5">
                     <img className="corusel_icon" src={user_icon} alt="" />
@@ -316,7 +316,7 @@ const Corusel = () => {
             <img width={"100%"} height={"163px"} src={corusel_image_3} alt="" />
             <div className="corusel-card flex">
               <h3>Logic and numeric general calculations</h3>
-              <div className="corusel-card-bottom flex">
+              <div className="corusel-card-bottom flex align">
                 <div className="flex align gap-10">
                   <div className="corusel-card-user flex align gap-5">
                     <img className="corusel_icon" src={user_icon} alt="" />
