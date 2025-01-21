@@ -30,15 +30,15 @@ const Corusel = () => {
       {
         breakpoint: 880,
         settings: {
-          slidesToShow: 2.1,
+          slidesToShow: 2,
         },
       },
-      {
-        breakpoint: 767,
-        settings: {
-          slidesToShow: 1.6,
-        },
-      },
+      //   {
+      //     breakpoint: 767,
+      //     settings: {
+      //       slidesToShow: 1.6,
+      //     },
+      //   },
       {
         breakpoint: 600,
         settings: {
@@ -50,7 +50,7 @@ const Corusel = () => {
 
   return (
     <div
-      className="flex"
+      className="flex corusel-flex"
       style={{
         width: "85%",
         margin: "auto",
@@ -69,18 +69,17 @@ const Corusel = () => {
       <Slider {...settings}>
         <div>
           <div
-            className="flex slider-card"
             style={{
-              flexDirection: "column",
-              justifyContent: "space-between",
-              background: "red",
+              padding: "10 0",
+              background: "#f5f5f5",
               margin: "0 10px",
               width: "280px",
-              height: "350px",
-              borderRadius: "14px",
+              height: "auto",
+              borderRadius: 12,
             }}
+            className="flex slider-card"
           >
-            <img width={"100%"} height={"194px"} src={corusel_image_1} alt="" />
+            <img width={"100%"} height={"163px"} src={corusel_image_1} alt="" />
             <div className="corusel-card">
               <h3>Card 1</h3>
               <p>This is a sample card.</p>
@@ -99,9 +98,11 @@ const Corusel = () => {
               borderRadius: 8,
             }}
           >
-            <img width={"280px"} src={corusel_image_2} alt="" />
-            <h3>Card 2</h3>
-            <p>This is another sample card.</p>
+            <img width={"100%"} height={"163px"} src={corusel_image_2} alt="" />
+            <div className="corusel-card">
+              <h3>Card 2</h3>
+              <p>This is a sample card.</p>
+            </div>
           </div>
         </div>
         <div>
@@ -116,9 +117,11 @@ const Corusel = () => {
               borderRadius: 8,
             }}
           >
-            <img width={"280px"} src={corusel_image_3} alt="" />
-            <h3>Card 3</h3>
-            <p>This is the third card.</p>
+            <img width={"100%"} height={"163px"} src={corusel_image_3} alt="" />
+            <div className="corusel-card">
+              <h3>Card 3</h3>
+              <p>This is a sample card.</p>
+            </div>
           </div>
         </div>
         <div>
@@ -133,7 +136,7 @@ const Corusel = () => {
               borderRadius: 8,
             }}
           >
-            <img width={"280px"} src={corusel_image_4} alt="" />
+            <img width={"100%"} height={"163px"} src={corusel_image_4} alt="" />
             <h3>Card 4</h3>
             <p>This is the fourth card.</p>
           </div>
@@ -150,7 +153,7 @@ const Corusel = () => {
               borderRadius: 8,
             }}
           >
-            <img width={"280px"} src={corusel_image_2} alt="" />
+            <img width={"100%"} height={"163px"} src={corusel_image_2} alt="" />
             <h3>Card 5</h3>
             <p>This is the fifth card.</p>
           </div>
@@ -167,7 +170,7 @@ const Corusel = () => {
               borderRadius: 8,
             }}
           >
-            <img width={"280px"} src={corusel_image_1} alt="" />
+            <img width={"100%"} height={"163px"} src={corusel_image_1} alt="" />
             <h3>Card 5</h3>
             <p>This is the fifth card.</p>
           </div>
@@ -184,7 +187,7 @@ const Corusel = () => {
               borderRadius: 8,
             }}
           >
-            <img width={"280px"} src={corusel_image_4} alt="" />
+            <img width={"100%"} height={"163px"} src={corusel_image_4} alt="" />
             <h3>Card 5</h3>
             <p>This is the fifth card.</p>
           </div>
@@ -201,7 +204,7 @@ const Corusel = () => {
               borderRadius: 8,
             }}
           >
-            <img width={"280px"} src={corusel_image_3} alt="" />
+            <img width={"100%"} height={"163px"} src={corusel_image_3} alt="" />
             <h3>Card 5</h3>
             <p>This is the fifth card.</p>
           </div>

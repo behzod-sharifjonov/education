@@ -320,6 +320,9 @@ nav ul li:first-child {
   .service-additional img {
     max-width: 300px;
   }
+  .corusel-flex{
+    width: 95%!important;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -356,5 +359,8 @@ nav ul li:first-child {
     flex-direction: column;
     height: 280px !important;
     width: 250px!important;
+  }
+  .corusel-flex{
+    width: 90%!important;
   }
 }
