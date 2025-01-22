@@ -148,8 +148,9 @@ nav ul li:first-child {
   font-size: clamp(0.8rem, calc(1vw + 0.1rem), 1.4rem);
 }
 
-.service-card-text span {
-  font-size: clamp(0.6rem, 1vw, 1.8rem);
+.service-card-text span,
+.additional-text span {
+  font-size: clamp(0.6rem, 1vw, 2rem);
   font-weight: 300;
 }
 
@@ -167,21 +168,24 @@ nav ul li:first-child {
   padding: 50px 0;
 }
 
-.service-additional img {
+.service-additional img,
+.additional-image {
   width: 100%;
-  max-width: 500px;
+  max-width: 480px;
   height: auto;
 }
 
-.service-additional-text {
+.service-additional-text,
+.additional-text {
   text-align: left;
   flex-direction: column;
   gap: 20px;
   width: 60%;
 }
 
-.service-additional-text h1 {
-  font-size: clamp(0.9rem, calc(2vw + 0.3rem), 2.9rem);
+.service-additional-text h1,
+.additional-text h1 {
+  font-size: clamp(0.9rem, calc(2vw + 0.4rem), 2.9rem);
 }
 
 .service-additional-info {
@@ -262,6 +266,11 @@ nav ul li:first-child {
 
 .corusel-card-price {
   font-weight: 600;
+}
+
+.additional-container {
+  justify-content: space-between;
+  width: 100%;
 }
 
 @media screen and (max-width: 991px) {
@@ -360,6 +369,10 @@ nav ul li:first-child {
     max-width: 170px;
   }
 
+  .additional-text h1 {
+    font-size: clamp(0.9rem, calc(2vw + 0.6rem), 2.9rem);
+  }
+
   .service-additional-info h3 {
     font-size: 0.8rem;
   }
@@ -378,7 +391,16 @@ nav ul li:first-child {
     padding: 10px;
   }
 
-  .slider-card img {
+  .additional-text{
+    width: 100%;
+  }
+
+  .additional-text span  {
+    font-size: clamp(0.4rem, 1vw, 2rem);
+  }
+
+  .slider-card img,
+  .additional-image {
     height: 146px !important;
   }
 
@@ -396,7 +418,13 @@ nav ul li:first-child {
     width: 10px;
   }
 
-  .corusel-card-bottom{
+  .corusel-card-bottom {
     height: 100px;
+  }
+
+  .additional-btn{
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
   }
 }

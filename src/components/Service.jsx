@@ -71,7 +71,7 @@ function Service() {
             Access to learning anytime <br /> and anywhere
           </h1>
           <span>
-            Lorem Ipsum is simply dummy text of the printing and typesetting{" "}
+            Lorem Ipsum is simply dummy text of the printing and typesetting
             <br /> industry. Lorem Ipsum has been the industry's standard dummy
           </span>
           <div className="service-additional-info ">

@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import Service from "./components/Service";
 import Corusel from "./components/Corusel";
+import Additional from "./components/Additional";
 
 function App() {
   return (
@@ -9,8 +10,9 @@ function App() {
       <Header />
       <Service />
       <div className="corusel-container flex align">
-      <Corusel />
+        <Corusel />
       </div>
+      <Additional />
     </div>
   );
 }

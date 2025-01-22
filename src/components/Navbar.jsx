@@ -4,24 +4,24 @@ import "./components.css";
 import { RiMenu3Fill } from "react-icons/ri";
 
 function Navbar() {
-  const [toggleMenu, setToggleMenu] = useState(false);
+//   const [toggleMenu, setToggleMenu] = useState(false);
 
-  console.log(toggleMenu);
+//   console.log(toggleMenu);
 
   return (
     <nav className="flex align container">
       <img src={Logo} alt="" />
-      <ul className={`flex nav-ul ${toggleMenu ? "active" : ""} `}>
+      {/* <ul className={`flex nav-ul ${toggleMenu ? "active" : ""} `}>
         <li>Home</li>
         <li>Course</li>
         <li>Monitors</li>
         <li>Testimonials</li>
         <li>Blog</li>
-      </ul>
+      </ul> */}
       <button className="btn">Contact</button>
-      <button className={`nav-menu`} onClick={() => setToggleMenu(!toggleMenu)}>
+      {/* <button className={`nav-menu`} onClick={() => setToggleMenu(!toggleMenu)}>
         <RiMenu3Fill />
-      </button>
+      </button> */}
     </nav>
   );
 }
