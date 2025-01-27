@@ -356,6 +356,11 @@ nav ul li:first-child {
   .service-additional img {
     max-width: 300px;
   }
+
+.additional-image{
+    max-width: 230px;
+}
+
   .corusel-flex {
     width: 95% !important;
   }
@@ -391,11 +396,11 @@ nav ul li:first-child {
     padding: 10px;
   }
 
-  .additional-text{
+  .additional-text {
     width: 100%;
   }
 
-  .additional-text span  {
+  .additional-text span {
     font-size: clamp(0.4rem, 1vw, 2rem);
   }
 
@@ -422,7 +427,7 @@ nav ul li:first-child {
     height: 100px;
   }
 
-  .additional-btn{
+  .additional-btn {
     width: 100px;
     height: 30px;
     font-size: 12px;
