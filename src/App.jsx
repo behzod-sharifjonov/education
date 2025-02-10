@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Service from "./components/Service";
 import Corusel from "./components/Corusel";
 import Additional from "./components/Additional";
+import Comments from "./components/Comments";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Corusel />
       </div>
       <Additional />
+      <Comments />
     </div>
   );
 }
